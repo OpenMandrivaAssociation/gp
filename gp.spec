@@ -10,7 +10,6 @@ License: GPL
 Group: Sciences/Chemistry
 URL: http://www.bioinformatics.org/genpak
 Source: %name-%version.tar.bz2
-BuildRoot: %_tmppath/%name-root
 
 %description
 This is a set of small programs for biologists working with sequence data. The
