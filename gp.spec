@@ -1,6 +1,6 @@
 %define name gp
 %define version 0.26
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: A set of basic utilities for manipulating DNA / RNA / protein sequences
 Name: %name
