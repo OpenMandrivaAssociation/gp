@@ -45,3 +45,36 @@ rm -fr $RPM_BUILD_ROOT
 %_mandir/man1/*
 %_datadir/genpak
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.26-7mdv2011.0
++ Revision: 619221
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.26-6mdv2010.0
++ Revision: 429291
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.26-5mdv2009.0
++ Revision: 246528
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.26-3mdv2008.1
++ Revision: 126207
+- kill re-definition of %%buildroot on Pixel's request
+- import gp
+
+
+* Thu Jan 05 2005 Lenny Cartier <lenny@mandriva.com> 0.26-3mdk
+- rebuild
+
+* Mon Feb 23 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.26-2mdk
+- rebuild
+
+* Wed Jan 08 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.26-1mdk
+- from Austin Acton <aacton@yorku.ca> :
+	- initial package for Mandrake 9
