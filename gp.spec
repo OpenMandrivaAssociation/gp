@@ -12,6 +12,7 @@ URL: https://www.bioinformatics.org/genpak
 Source: %name-%version.tar.bz2
 BuildRoot: %_tmppath/%name-root
 
+BuildRequires:	make
 %description
 This is a set of small programs for biologists working with sequence data. The
 programs are written as a sort of `biological' extension to the standard Unix
